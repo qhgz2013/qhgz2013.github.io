@@ -69,4 +69,5 @@ $ gpg --armor --export 3AA5C34371567BD2
 4. 在`Key`一栏中，粘贴生成的GPG key
 5. 点击**Add GPG key**
 6. 输入github的密码进行确认
-
+7. 在本地提交中输入`git config --global user.signingkey 3AA5C34371567BD2`，配置全局开启GPG验证
+8. 在每次提交时输入passphrase即可
