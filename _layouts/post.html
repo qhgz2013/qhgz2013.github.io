@@ -15,11 +15,11 @@ layout: default
                 {% if page.author %}<i class="fa fa-user"></i>{{ page.author }}
                 {% endif %}
             </div>
-            <!--
+            
             <div class="label-card">
                 <p><i class="fa fa-eye fa-x"></i><span id="busuanzi_value_page_pv"></span></p>
             </div>
-            -->
+            
             <div class="label-card">
                 {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
             </div>
@@ -68,8 +68,8 @@ layout: default
 
         {% include previousAndNext.html %}
 
-        <!--<h2 id="comments">Comments</h2>
-        {% include comments.html %}-->
+        <h2 id="comments">Comments</h2>
+        {% include comments.html %}
 
 
     </div>
@@ -86,7 +86,7 @@ layout: default
                     {% if hasSimilar.size > 0 %}
                     <li><a href="#similar_posts">Similar Posts</a></li>
                     {% endif %}
-                    <!--<li><a href="#comments">Comments</a></li>-->
+                    <li><a href="#comments">Comments</a></li>
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->
